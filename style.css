@@ -148,4 +148,14 @@ main{
     text-shadow: 0 0 10px rgba(128, 128, 0.418);
 }
 
-/*15:24*/
+.description{
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    max-width: 35rem;       
+    color: gray;
+}
+
+.button{
+    display: flex;
+    gap: 1rem;
+}
