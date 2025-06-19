@@ -191,3 +191,28 @@ main{
 .btn-signing-main:hover{
     background-color: gray;
 }
+
+.robot-3d{
+    position: absolute;
+    top: 0;
+    right: -20%;
+}
+
+/* MEDIA QUERY */
+
+/* TABLET RESPONSIVE */
+@media (max-width: 1300px){
+    header{
+        padding: 1rem 0.5rem;
+    }
+
+    .content{
+        margin-top: 85%;
+    }
+
+    .robot-3d{
+        scale: 0.8;
+        top: -20%;
+        right: 2%;
+    }
+}
